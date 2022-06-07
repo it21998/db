@@ -36,10 +36,10 @@ pipeline {
                         ansible-playbook -i ~/workspace/ansible-project/ansible-example-jenkins/hosts.yml -l deploymentjenkins ~/workspace/ansible-project/ansible-example-jenkins/playbooks/postgres.yml
                         '''
             }
-            }
+            
         }
      
 
-        }
+        
     }
 }
