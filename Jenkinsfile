@@ -33,7 +33,7 @@ pipeline {
                         pwd
                         echo $WORKSPACE
 
-                        ansible-playbook -i ~/workspace/ansible-project/ansible-example-jenkins/hosts.yml -l deploymentservers ~/workspace/ansible-project/ansible-example-jenkins/playbooks/postgres.yml
+                        ansible-playbook -i ~/workspace/ansible-project/ansible-example-jenkins/hosts.yml -l deploymentjenkins ~/workspace/ansible-project/ansible-example-jenkins/playbooks/postgres.yml
                         '''
             }
             }
